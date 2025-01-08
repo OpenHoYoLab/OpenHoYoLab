@@ -16,7 +16,7 @@ class MiyousheClient {
         this.ktorfit = Ktorfit.Builder()
             .baseUrl("https://bbs-api-static.miyoushe.com/")
             .build()
-            .create()
+            .createMiyousheKtorfit()
     }
 
 }

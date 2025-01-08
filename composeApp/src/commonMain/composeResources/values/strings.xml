@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">OpenHoYoLab</string>
+    <string name="miyoushe">Miyoushe</string>
+    <string name="hoyolab">HoYoLAB</string>
+    <string name="miyoushe_user">I'm Miyoushe user</string>
+    <string name="hoyolab_user">I'm HoYoLAB user</string>
 </resources>    

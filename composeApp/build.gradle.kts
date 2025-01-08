@@ -153,3 +153,9 @@ compose.desktop {
         }
     }
 }
+
+compose.resources {
+    publicResClass = true
+    packageOfResClass = "io.openhoyolab.resource"
+    generateResClass = always
+}

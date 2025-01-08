@@ -1,36 +1,28 @@
 package io.openhoyolab.lab
 
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.material3.Button
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Surface
 import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import org.jetbrains.compose.resources.painterResource
+import cafe.adriel.voyager.navigator.CurrentScreen
+import cafe.adriel.voyager.navigator.Navigator
+import io.openhoyolab.lab.page.FirstLaunchingPage
+import io.openhoyolab.lab.theme.DynamicTheme
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
-import openhoyolab.composeapp.generated.resources.Res
-import openhoyolab.composeapp.generated.resources.compose_multiplatform
+import org.koin.compose.KoinApplication
 
 @Composable
 @Preview
 fun App() {
-
-    MaterialTheme {
-        var showContent by remember { mutableStateOf(false) }
-        Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
-            Button(onClick = { showContent = !showContent }) {
-                Text("Click me!")
-            }
-            AnimatedVisibility(showContent) {
-                val greeting = remember { Greeting().greet() }
-                Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
-                    Image(painterResource(Res.drawable.compose_multiplatform), null)
-                    Text("Compose: $greeting")
+    KoinApplication(application = {
+    }) {
+        DynamicTheme {
+            Navigator(FirstLaunchingPage()) {
+                Surface(
+                    modifier = Modifier.fillMaxSize()
+                ) {
+                    CurrentScreen()
                 }
             }
         }

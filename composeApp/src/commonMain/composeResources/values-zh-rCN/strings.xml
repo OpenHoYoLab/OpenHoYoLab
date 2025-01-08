@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">源游社</string>
+    <string name="miyoushe">米游社</string>
+    <string name="hoyolab">HoYoLAB</string>
+    <string name="miyoushe_user">我是米游社用户</string>
+    <string name="hoyolab_user">我是 HoYoLAB 用户</string>
 </resources>
