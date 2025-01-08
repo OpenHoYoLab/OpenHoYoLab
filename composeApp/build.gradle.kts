@@ -144,12 +144,29 @@ compose.desktop {
     application {
         mainClass = "io.openhoyolab.lab.MainKt" // here declared the main class of the app
 
+        buildTypes.release.proguard {
+            // compiling problem, have to disable
+            // luckily, this is an open-sourced project
+            // no obfuscation need
+            isEnabled.set(false)
+        }
+
         nativeDistributions {
             // .dmg for macOS, .msi for Microsoft Windows, .deb for Linux distros based on Debian
             // I don't know how to package kmp project to different packages like .rpm (for Linux distros based Red Hat)
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "io.openhoyolab.lab"
             packageVersion = "1.0.0"
+
+            windows {
+                iconFile.set(project.file("/resources/logo.ico"))
+            }
+            macOS {
+                iconFile.set(project.file("/resources/logo.icns"))
+            }
+            linux {
+                iconFile.set(project.file("/resources/logo.png"))
+            }
         }
     }
 }
