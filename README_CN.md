@@ -1,4 +1,4 @@
-<img src="./resources/logo.png" style="display: block; width: 128px; height: 128px; margin-left: auto; margin-right: auto;" ></img>
+<p align="center"><img src="./resources/logo.png" style="width: 128px; height: 128px;"  alt="logo"></p>
 <h1 align="center">开源米游社</h1>
 <p align="center">一个通过 Jetpack Compose 及 Kotlin Multiplatform 实现的开源米游社 App。</p>
 <p align="center"><a href="./README.md">English</a> | 简体中文</p>

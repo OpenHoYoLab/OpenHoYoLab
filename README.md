@@ -1,5 +1,4 @@
-<img src="./resources/logo.png" style="display: block; width: 128px; height: 128px; margin-left: auto; margin-right: auto;" ></img>
-<h1 align="center">OpenHoYoLab</h1>
+<p align="center"><img src="./resources/logo.png" style="width: 128px; height: 128px;"  alt="logo"></p><h1 align="center">OpenHoYoLab</h1>
 <p align="center">An open-sourced HoYoLab app powered by Jetpack Compose & Kotlin Multiplatform.</p>
 <p align="center">English | <a href="./README_CN.md">简体中文</a></p>
 
