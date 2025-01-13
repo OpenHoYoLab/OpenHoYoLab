@@ -48,12 +48,12 @@ kotlin {
             implementation(libs.androidx.activity.compose)
         }
 
-        appleMain.dependencies {
+        iosMain.dependencies {
             // Ktor platform
             implementation(libs.ktor.client.darwin)
         }
 
-        // common should only contains code and libraries related to kotlin itself
+        // common should only contain code and libraries related to kotlin itself
         commonMain.dependencies {
             // Koin
             implementation(libs.koin.compose)
@@ -70,6 +70,7 @@ kotlin {
 
             // Coil Image
             implementation(libs.coil.compose)
+            implementation(libs.coil.gif)
             implementation(libs.coil.network.ktor3)
 
             // KotlinX Serialization (Json parsing)
@@ -85,8 +86,12 @@ kotlin {
 
             // Jetpack Compose
             implementation(compose.runtime)
+            implementation(compose.runtimeSaveable)
             implementation(compose.foundation)
+            implementation(compose.animation)
+            implementation(compose.animationGraphics)
             implementation(compose.material3)
+            implementation(compose.material3AdaptiveNavigationSuite)
             implementation(compose.materialIconsExtended)
             implementation(compose.ui)
             implementation(compose.components.resources)

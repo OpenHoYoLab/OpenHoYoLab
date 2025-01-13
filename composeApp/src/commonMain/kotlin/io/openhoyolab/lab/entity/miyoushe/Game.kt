@@ -1,6 +1,5 @@
 package io.openhoyolab.lab.entity.miyoushe
 
-import de.jensklingenberg.ktorfit.converter.Converter
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonNames

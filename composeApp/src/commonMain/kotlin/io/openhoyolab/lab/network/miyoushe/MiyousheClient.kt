@@ -1,22 +1,24 @@
-package io.openhoyolab.lab.network
+package io.openhoyolab.lab.network.miyoushe
 
 import de.jensklingenberg.ktorfit.Ktorfit
 import de.jensklingenberg.ktorfit.http.GET
 import io.ktor.client.*
-import io.openhoyolab.lab.entity.miyoushe.Game
+import io.openhoyolab.lab.network.JsonObjectResponseConverter
+import kotlinx.serialization.json.JsonObject
 
 class MiyousheClient {
 
     private val client: HttpClient
-    private val ktorfit: MiyousheKtorfit
+    val webapi: WebapiKtorfit
 
     init {
         this.client = HttpClient {
         }
-        this.ktorfit = Ktorfit.Builder()
+        this.webapi = Ktorfit.Builder()
+            .converterFactories(JsonObjectResponseConverter())
             .baseUrl("https://bbs-api-static.miyoushe.com/")
             .build()
-            .createMiyousheKtorfit()
+            .createWebapiKtorfit()
     }
 
 }
@@ -25,7 +27,7 @@ class MiyousheClient {
  * 用于调用米游社 API 的 Ktrofit 接口
  * Interface used to fetch Miyoushe API
  */
-interface MiyousheKtorfit {
+interface WebapiKtorfit {
 
     /**
      * 获取所有游戏
@@ -34,6 +36,6 @@ interface MiyousheKtorfit {
      * @return List of games
      */
     @GET("apihub/wapi/getGameList")
-    suspend fun getGameList(): List<Game>
+    suspend fun getGameList(): JsonObject
 
 }

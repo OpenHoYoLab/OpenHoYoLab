@@ -44,6 +44,7 @@ koin-composeViewmodelNavigation = { module = "io.insert-koin:koin-compose-viewmo
 
 # coil for compose image
 coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coil" }
+coil-gif = { module = "io.coil-kt.coil3:coil-gif", version.ref = "coil" }
 coil-network-ktor3 = { module = "io.coil-kt.coil3:coil-network-ktor3", version.ref = "coil" }
 
 # ktor and ktorfit for networking

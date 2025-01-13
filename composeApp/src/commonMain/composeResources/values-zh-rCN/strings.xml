@@ -4,4 +4,8 @@
     <string name="hoyolab">HoYoLAB</string>
     <string name="miyoushe_user">我是米游社用户</string>
     <string name="hoyolab_user">我是 HoYoLAB 用户</string>
+    <string name="miyoushe_tab_home">主页</string>
+    <string name="miyoushe_tab_activity">动态</string>
+    <string name="miyoushe_tab_message">消息</string>
+    <string name="miyoushe_tab_user">我的</string>
 </resources>
