@@ -1,0 +1,18 @@
+{
+  "url": "https://bbs-api-static.miyoushe.com/apihub/wapi/webHome",
+  "method": "GET",
+  "queries": [
+    {
+      "name": "gids",
+      "value": "2"
+    },
+    {
+      "name": "page",
+      "value": "1"
+    },
+    {
+      "name": "page_size",
+      "value": "20"
+    }
+  ]
+}

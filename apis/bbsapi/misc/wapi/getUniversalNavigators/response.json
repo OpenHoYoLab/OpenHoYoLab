@@ -1,0 +1,133 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "list": [
+      {
+        "type": "WEB_GTOOL_PC",
+        "navigators": [
+          {
+            "id": "80534824",
+            "name": "工具合集",
+            "desc": "",
+            "icon": "https://bbs-static.miyoushe.com/static/2024/07/22/0f28a79316923d69f2bccb510ded41e1_2644449957355027896.png",
+            "sort_order": 0,
+            "reddot_status": 0,
+            "is_reset": false,
+            "publish_time": "",
+            "online_ts": "0",
+            "offline_ts": "0",
+            "is_online": true,
+            "app_path": "https://act.miyoushe.com/puzzle/bbs/pz_ys5M3WP6KK/index.html?mhy_presentation_style=fullscreen\u0026utm_source=bbs\u0026utm_medium=mys\u0026utm_campaign=pcbox",
+            "web_path": "https://act.miyoushe.com/puzzle/bbs/pz_ys5M3WP6KK/index.html?mhy_presentation_style=fullscreen\u0026utm_source=bbs\u0026utm_medium=mys\u0026utm_campaign=pcbox"
+          },
+          {
+            "id": "3703074403",
+            "name": "签到福利",
+            "desc": "",
+            "icon": "https://bbs-static.miyoushe.com/static/2024/07/22/89d0808f29b7e7260fb1de634abef5be_8835270349582182620.png",
+            "sort_order": 0,
+            "reddot_status": 0,
+            "is_reset": false,
+            "publish_time": "",
+            "online_ts": "0",
+            "offline_ts": "0",
+            "is_online": true,
+            "app_path": "https://act.mihoyo.com/bbs/event/signin/hk4e/index.html?act_id=e202311201442471\u0026bbs_auth_required=true\u0026bbs_presentation_style=fullscreen\u0026mhy_presentation_style=fullscreen\u0026utm_source=bbs\u0026utm_medium=ys\u0026utm_campaign=pcbox",
+            "web_path": "https://act.mihoyo.com/bbs/event/signin/hk4e/index.html?act_id=e202311201442471\u0026bbs_auth_required=true\u0026bbs_presentation_style=fullscreen\u0026mhy_presentation_style=fullscreen\u0026utm_source=bbs\u0026utm_medium=ys\u0026utm_campaign=pcbox"
+          },
+          {
+            "id": "2878057910",
+            "name": "观测枢",
+            "desc": "",
+            "icon": "https://bbs-static.miyoushe.com/static/2024/07/22/19911bcf951e8d3016e7874c52a31474_6112406971940527441.png",
+            "sort_order": 0,
+            "reddot_status": 0,
+            "is_reset": false,
+            "publish_time": "",
+            "online_ts": "0",
+            "offline_ts": "0",
+            "is_online": true,
+            "app_path": "https://baike.mihoyo.com/ys/obc/?bbs_presentation_style=no_header\u0026utm_source=bbs\u0026utm_medium=mys\u0026utm_campaign=pcbox",
+            "web_path": "https://baike.mihoyo.com/ys/obc/?bbs_presentation_style=no_header\u0026utm_source=bbs\u0026utm_medium=mys\u0026utm_campaign=pcbox"
+          },
+          {
+            "id": "2741692272",
+            "name": "大地图",
+            "desc": "",
+            "icon": "https://bbs-static.miyoushe.com/static/2024/07/22/18cec053ef31537d0802502a28b32857_3730569169862244102.png",
+            "sort_order": 0,
+            "reddot_status": 0,
+            "is_reset": false,
+            "publish_time": "",
+            "online_ts": "0",
+            "offline_ts": "0",
+            "is_online": true,
+            "app_path": "https://act.mihoyo.com/ys/app/interactive-map/index.html?bbs_presentation_style=no_header\u0026lang=zh-cn\u0026utm_source=bbs\u0026utm_medium=mys\u0026utm_campaign=pcicon\u0026_markerFps=24#/map/2",
+            "web_path": "https://act.mihoyo.com/ys/app/interactive-map/index.html?bbs_presentation_style=no_header\u0026lang=zh-cn\u0026utm_source=bbs\u0026utm_medium=mys\u0026utm_campaign=pcicon\u0026_markerFps=24#/map/2"
+          },
+          {
+            "id": "2711208501",
+            "name": "战绩",
+            "desc": "",
+            "icon": "https://bbs-static.miyoushe.com/static/2024/07/22/ced4deac2162690105bbc8baad2b51a3_8719481909328899067.png",
+            "sort_order": 0,
+            "reddot_status": 0,
+            "is_reset": false,
+            "publish_time": "",
+            "online_ts": "0",
+            "offline_ts": "0",
+            "is_online": true,
+            "app_path": "https://webstatic.mihoyo.com/app/community-game-records/?game_id=2\u0026utm_source=bbs\u0026utm_medium=mys\u0026utm_campaign=pcbox",
+            "web_path": "https://webstatic.mihoyo.com/app/community-game-records/?game_id=2\u0026utm_source=bbs\u0026utm_medium=mys\u0026utm_campaign=pcbox"
+          },
+          {
+            "id": "2248641323",
+            "name": "阵容广场",
+            "desc": "",
+            "icon": "https://bbs-static.miyoushe.com/static/2024/12/16/1024840e3dfdd496bd0c04c01b56c941_7881903508337284972.png",
+            "sort_order": 0,
+            "reddot_status": 0,
+            "is_reset": false,
+            "publish_time": "",
+            "online_ts": "1734343200",
+            "offline_ts": "1767110400",
+            "is_online": true,
+            "app_path": "https://webstatic.mihoyo.com/ys/event/lineup-fe/index.html?mhy_presentation_style=fullscreen\u0026utm_source=bbs\u0026utm_medium=mys\u0026utm_campaign=icon",
+            "web_path": "https://webstatic.mihoyo.com/ys/event/lineup-fe/index.html?mhy_presentation_style=fullscreen\u0026utm_source=bbs\u0026utm_medium=mys\u0026utm_campaign=icon"
+          },
+          {
+            "id": "3383631304",
+            "name": "卡牌广场",
+            "desc": "",
+            "icon": "https://bbs-static.miyoushe.com/static/2024/07/22/8043e68e328d998719d9647c4ecb77e5_3588162392531105472.png",
+            "sort_order": 0,
+            "reddot_status": 0,
+            "is_reset": false,
+            "publish_time": "",
+            "online_ts": "0",
+            "offline_ts": "0",
+            "is_online": true,
+            "app_path": "https://webstatic.mihoyo.com/ys/event/bbs-lineup-qskp/index.html?mhy_presentation_style=fullscreen\u0026utm_source=bbs\u0026utm_medium=mys\u0026utm_campaign=pcbox",
+            "web_path": "https://webstatic.mihoyo.com/ys/event/bbs-lineup-qskp/index.html?mhy_presentation_style=fullscreen\u0026utm_source=bbs\u0026utm_medium=mys\u0026utm_campaign=pcbox"
+          },
+          {
+            "id": "2073142727",
+            "name": "支付中心",
+            "desc": "",
+            "icon": "https://bbs-static.miyoushe.com/static/2023/11/20/12635e375f3801bdb5f5aa54f045db61_77066839977431196.png",
+            "sort_order": 0,
+            "reddot_status": 0,
+            "is_reset": false,
+            "publish_time": "",
+            "online_ts": "0",
+            "offline_ts": "0",
+            "is_online": true,
+            "app_path": "https://webstatic.mihoyo.com/payment/yuanshen/index.html?utm_source=bbs",
+            "web_path": "https://webstatic.mihoyo.com/payment/yuanshen/index.html?utm_source=bbs"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://bbs-api.miyoushe.com/post/wapi/getOfficialRecommendedPosts",
+  "method": "GET",
+  "queries": [
+    {
+      "name": "gids",
+      "value": "2"
+    }
+  ]
+}

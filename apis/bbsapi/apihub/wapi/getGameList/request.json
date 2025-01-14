@@ -1,0 +1,5 @@
+{
+  "url": "https://bbs-api-static.miyoushe.com/apihub/wapi/getGameList",
+  "method": "GET",
+  "queries": []
+}

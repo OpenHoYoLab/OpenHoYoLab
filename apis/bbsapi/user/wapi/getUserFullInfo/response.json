@@ -1,0 +1,135 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "user_info": {
+      "uid": "%PRIVATE_INFORMATION%",
+      "nickname": "DeeChael",
+      "introduce": "DeeChael",
+      "avatar": "101348",
+      "gender": 0,
+      "certification": {
+        "type": 0,
+        "label": ""
+      },
+      "level_exps": [
+        {
+          "level": 4,
+          "exp": 773,
+          "game_id": 8
+        },
+        {
+          "level": 4,
+          "exp": 778,
+          "game_id": 6
+        },
+        {
+          "level": 5,
+          "exp": 1286,
+          "game_id": 2
+        },
+        {
+          "level": 1,
+          "exp": 5,
+          "game_id": 4
+        },
+        {
+          "level": 1,
+          "exp": 0,
+          "game_id": 1
+        },
+        {
+          "level": 1,
+          "exp": 0,
+          "game_id": 3
+        },
+        {
+          "level": 1,
+          "exp": 0,
+          "game_id": 5
+        }
+      ],
+      "achieve": {
+        "like_num": "26",
+        "post_num": "3",
+        "replypost_num": "4",
+        "follow_cnt": "7",
+        "followed_cnt": "1",
+        "topic_cnt": "0",
+        "new_follower_num": "0",
+        "good_post_num": "0",
+        "follow_collection_cnt": "0",
+        "silent_num": "0"
+      },
+      "community_info": {
+        "is_realname": true,
+        "agree_status": true,
+        "silent_end_time": 0,
+        "forbid_end_time": 0,
+        "info_upd_time": 1720875927,
+        "privacy_invisible": {
+          "post": false,
+          "collect": false,
+          "watermark": false,
+          "reply": false,
+          "post_and_instant": false
+        },
+        "notify_disable": {
+          "reply": false,
+          "upvote": false,
+          "follow": false,
+          "system": false,
+          "chat": false
+        },
+        "has_initialized": true,
+        "user_func_status": {
+          "enable_history_view": true,
+          "enable_recommend": true,
+          "enable_mention": true,
+          "user_center_view": 1,
+          "show_self_created_villa": "SHOW_SELF_CREATED_VILLA_STATUS_PUBLIC",
+          "is_protected_mode_on": false
+        },
+        "forum_silent_info": [],
+        "last_login_ip": "%PRIVATE_INFORMATION%",
+        "last_login_time": 0,
+        "created_at": 1604095763
+      },
+      "avatar_url": "https://bbs-static.miyoushe.com/static/2024/07/06/d8080e1000e0339a8186041f3b633606_6089679993422588190.png",
+      "certifications": [],
+      "level_exp": null,
+      "pendant": "https://upload-bbs.mihoyo.com/upload/2022/05/10/1ac6bed2ca64121bb4bc05a3c963873a_5210533687637123505.png",
+      "is_logoff": false,
+      "ip_region": "%PRIVATE_INFORMATION%",
+      "showText": null,
+      "avatar_ext": {
+        "avatar_type": 0,
+        "avatar_assets_id": "",
+        "resources": [],
+        "hd_resources": []
+      }
+    },
+    "follow_relation": null,
+    "auth_relations": [],
+    "is_in_blacklist": false,
+    "is_has_collection": false,
+    "is_creator": false,
+    "customer_service": {
+      "is_customer_service_staff": false,
+      "game_id": 0
+    },
+    "audit_info": {
+      "is_nickname_in_audit": false,
+      "nickname": "",
+      "is_introduce_in_audit": false,
+      "introduce": "",
+      "nickname_status": 1,
+      "is_avatar_in_audit": false,
+      "avatar_url": "",
+      "introduce_status": 0,
+      "avatar_status": 0
+    },
+    "user_silence_status": 0,
+    "user_silence_reason": ""
+  }
+}

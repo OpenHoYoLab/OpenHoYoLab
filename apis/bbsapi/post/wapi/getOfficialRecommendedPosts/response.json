@@ -1,0 +1,44 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "list": [
+      {
+        "post_id": "61036723",
+        "subject": "【有奖活动】提瓦特冒险记——凶魁巨怪觇候录",
+        "banner": "https://upload-bbs.miyoushe.com/upload/2025/01/13/76387920/6cb189f01c73943c3fd3cbb94ebd2d17_3062705231479326077.png",
+        "official_type": 2
+      },
+      {
+        "post_id": "60665556",
+        "subject": "决战前夜·四格漫画 03，5.3版本第一期话题活动开启~",
+        "banner": "https://upload-bbs.miyoushe.com/upload/2024/12/31/75276545/19101c04b72b9589fd2204cc663a9755_553149029740483645.png",
+        "official_type": 2
+      },
+      {
+        "post_id": "61036716",
+        "subject": "「申鹤」主题印象系列服饰即将开启贩售！",
+        "banner": "https://upload-bbs.miyoushe.com/upload/2025/01/13/218080295/d5ab090f41ad96d8516a7b12b9666190_6535382754430701969.jpg",
+        "official_type": 3
+      },
+      {
+        "post_id": "61020975",
+        "subject": "新品情报 | 全新主题印象系列图透",
+        "banner": "https://upload-bbs.miyoushe.com/upload/2025/01/13/218080295/54166f55ac3b0e8e4c1df58822dc5595_8993145498004484186.jpg",
+        "official_type": 3
+      },
+      {
+        "post_id": "60991821",
+        "subject": "「凶魁巨怪觇候录」活动：强敌观测委托",
+        "banner": "https://upload-bbs.miyoushe.com/upload/2025/01/10/75276539/40be2d9b79a392e9ac676ed6b046a8a8_316762614358954027.png",
+        "official_type": 1
+      },
+      {
+        "post_id": "60921855",
+        "subject": "「七圣召唤」热斗模式：奇策竞驰",
+        "banner": "https://upload-bbs.miyoushe.com/upload/2025/01/08/75276539/ae57e960d5c8fece288555ed4fedc8ec_7987507385037830861.png",
+        "official_type": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "list": [
+      {
+        "user": {
+          "uid": "168551504",
+          "nickname": "小茶梗",
+          "introduce": "MMD创作者，抖音同名（ID：TinyTeaStem），每日19-25时在那边直播，欢迎来围观！",
+          "avatar": "",
+          "gender": 0,
+          "certification": {
+            "type": 2,
+            "label": "同人视频作者、游戏领域作者、百日创作者"
+          },
+          "level_exps": [
+            {
+              "level": 5,
+              "exp": 1028,
+              "game_id": 1
+            },
+            {
+              "level": 16,
+              "exp": 120138,
+              "game_id": 2
+            },
+            {
+              "level": 2,
+              "exp": 67,
+              "game_id": 3
+            },
+            {
+              "level": 6,
+              "exp": 3388,
+              "game_id": 4
+            },
+            {
+              "level": 6,
+              "exp": 3531,
+              "game_id": 5
+            },
+            {
+              "level": 16,
+              "exp": 51745,
+              "game_id": 6
+            },
+            {
+              "level": 6,
+              "exp": 3471,
+              "game_id": 8
+            }
+          ],
+          "achieve": {
+            "like_num": "0",
+            "post_num": "2938",
+            "replypost_num": "0",
+            "follow_cnt": "0",
+            "followed_cnt": "42793",
+            "topic_cnt": "0",
+            "new_follower_num": "0",
+            "good_post_num": "0",
+            "follow_collection_cnt": "0",
+            "silent_num": "0"
+          },
+          "community_info": null,
+          "avatar_url": "https://upload-bbs.miyoushe.com/upload/2023/12/11/168551504/003fc9d0ee7596cef8e0e561ae12ec3a_6886665996378871322.jpg",
+          "certifications": [
+            {
+              "id": "1459",
+              "certification_id": "0",
+              "type": 2,
+              "label": "同人视频作者"
+            },
+            {
+              "id": "1460",
+              "certification_id": "0",
+              "type": 2,
+              "label": "游戏领域作者"
+            },
+            {
+              "id": "7315",
+              "certification_id": "0",
+              "type": 2,
+              "label": "百日创作者"
+            }
+          ],
+          "level_exp": {
+            "level": 16,
+            "exp": 120138,
+            "game_id": 2
+          },
+          "pendant": "",
+          "is_logoff": false,
+          "ip_region": "",
+          "showText": {
+            "reco_type": "bbs",
+            "row2Text": "同人视频作者、游戏领域作者、百日创作者",
+            "row3Text": "粉丝 42793"
+          },
+          "avatar_ext": null
+        },
+        "is_following": false,
+        "is_followed": false,
+        "posts": []
+      },
+      {
+        "user": {
+          "uid": "164862578",
+          "nickname": "风伤幽冥",
+          "introduce": "不开直播没建群，纯干货佛系作者，不为流量重复发。点我页面右上角🔍输入名称可快速查找攻略。",
+          "avatar": "",
+          "gender": 0,
+          "certification": {
+            "type": 2,
+            "label": "游戏领域作者、攻略作者"
+          },
+          "level_exps": [
+            {
+              "level": 6,
+              "exp": 2356,
+              "game_id": 1
+            },
+            {
+              "level": 16,
+              "exp": 132937,
+              "game_id": 2
+            },
+            {
+              "level": 8,
+              "exp": 6908,
+              "game_id": 5
+            },
+            {
+              "level": 15,
+              "exp": 41063,
+              "game_id": 6
+            },
+            {
+              "level": 6,
+              "exp": 2364,
+              "game_id": 8
+            }
+          ],
+          "achieve": {
+            "like_num": "0",
+            "post_num": "1643",
+            "replypost_num": "0",
+            "follow_cnt": "0",
+            "followed_cnt": "52938",
+            "topic_cnt": "0",
+            "new_follower_num": "0",
+            "good_post_num": "0",
+            "follow_collection_cnt": "0",
+            "silent_num": "0"
+          },
+          "community_info": null,
+          "avatar_url": "https://upload-bbs.miyoushe.com/upload/2023/10/23/164862578/8206cebb4c5064b23048565714c4675e_6446178638830725238.jpg",
+          "certifications": [
+            {
+              "id": "1918",
+              "certification_id": "18",
+              "type": 2,
+              "label": "游戏领域作者"
+            },
+            {
+              "id": "3076",
+              "certification_id": "17",
+              "type": 2,
+              "label": "攻略作者"
+            }
+          ],
+          "level_exp": {
+            "level": 16,
+            "exp": 132937,
+            "game_id": 2
+          },
+          "pendant": "",
+          "is_logoff": false,
+          "ip_region": "",
+          "showText": {
+            "reco_type": "bbs",
+            "row2Text": "游戏领域作者、攻略作者",
+            "row3Text": "粉丝 52938"
+          },
+          "avatar_ext": null
+        },
+        "is_following": false,
+        "is_followed": false,
+        "posts": []
+      },
+      {
+        "user": {
+          "uid": "76387920",
+          "nickname": "迷路的史莱姆酱",
+          "introduce": "系统原装签名，送给每一位小可爱~",
+          "avatar": "10020",
+          "gender": 0,
+          "certification": {
+            "type": 1,
+            "label": "官方史莱姆代言人"
+          },
+          "level_exps": [
+            {
+              "level": 2,
+              "exp": 48,
+              "game_id": 1
+            },
+            {
+              "level": 16,
+              "exp": 170105,
+              "game_id": 2
+            },
+            {
+              "level": 1,
+              "exp": 20,
+              "game_id": 4
+            },
+            {
+              "level": 1,
+              "exp": 28,
+              "game_id": 5
+            },
+            {
+              "level": 1,
+              "exp": 9,
+              "game_id": 8
+            }
+          ],
+          "achieve": {
+            "like_num": "0",
+            "post_num": "633",
+            "replypost_num": "0",
+            "follow_cnt": "0",
+            "followed_cnt": "1476140",
+            "topic_cnt": "0",
+            "new_follower_num": "0",
+            "good_post_num": "0",
+            "follow_collection_cnt": "0",
+            "silent_num": "0"
+          },
+          "community_info": null,
+          "avatar_url": "https://bbs-static.miyoushe.com/avatar/avatar10020.png",
+          "certifications": [
+            {
+              "id": "252",
+              "certification_id": "0",
+              "type": 1,
+              "label": "官方史莱姆代言人"
+            }
+          ],
+          "level_exp": {
+            "level": 16,
+            "exp": 170105,
+            "game_id": 2
+          },
+          "pendant": "",
+          "is_logoff": false,
+          "ip_region": "",
+          "showText": {
+            "reco_type": "bbs",
+            "row2Text": "官方史莱姆代言人",
+            "row3Text": "粉丝 147.6万"
+          },
+          "avatar_ext": null
+        },
+        "is_following": false,
+        "is_followed": false,
+        "posts": []
+      },
+      {
+        "user": {
+          "uid": "218080295",
+          "nickname": "原神-万有铺子",
+          "introduce": "原神旗舰店活动、周边资讯发布！",
+          "avatar": "100182",
+          "gender": 0,
+          "certification": {
+            "type": 1,
+            "label": "原神旗舰店周边资讯号"
+          },
+          "level_exps": [
+            {
+              "level": 16,
+              "exp": 77081,
+              "game_id": 2
+            },
+            {
+              "level": 1,
+              "exp": 6,
+              "game_id": 5
+            }
+          ],
+          "achieve": {
+            "like_num": "0",
+            "post_num": "179",
+            "replypost_num": "0",
+            "follow_cnt": "0",
+            "followed_cnt": "235142",
+            "topic_cnt": "0",
+            "new_follower_num": "0",
+            "good_post_num": "0",
+            "follow_collection_cnt": "0",
+            "silent_num": "0"
+          },
+          "community_info": null,
+          "avatar_url": "https://bbs-static.miyoushe.com/communityweb/upload/adc3c24859d7cceca144bb02939b8f27.png",
+          "certifications": [
+            {
+              "id": "862",
+              "certification_id": "0",
+              "type": 1,
+              "label": "原神旗舰店周边资讯号"
+            }
+          ],
+          "level_exp": {
+            "level": 16,
+            "exp": 77081,
+            "game_id": 2
+          },
+          "pendant": "",
+          "is_logoff": false,
+          "ip_region": "",
+          "showText": {
+            "reco_type": "bbs",
+            "row2Text": "原神旗舰店周边资讯号",
+            "row3Text": "粉丝 23.5万"
+          },
+          "avatar_ext": null
+        },
+        "is_following": false,
+        "is_followed": false,
+        "posts": []
+      },
+      {
+        "user": {
+          "uid": "76400079",
+          "nickname": "Mu晴雪",
+          "introduce": "倘若你心中仍存不甘之火，那便毅然起身吧。这不正是你未曾言败的最佳明证吗？b站@cm晴雨~",
+          "avatar": "",
+          "gender": 0,
+          "certification": {
+            "type": 2,
+            "label": "同人视频作者、游戏领域作者"
+          },
+          "level_exps": [
+            {
+              "level": 7,
+              "exp": 5288,
+              "game_id": 6
+            },
+            {
+              "level": 2,
+              "exp": 115,
+              "game_id": 8
+            },
+            {
+              "level": 16,
+              "exp": 46427,
+              "game_id": 1
+            },
+            {
+              "level": 14,
+              "exp": 28490,
+              "game_id": 2
+            },
+            {
+              "level": 1,
+              "exp": 10,
+              "game_id": 3
+            },
+            {
+              "level": 14,
+              "exp": 30937,
+              "game_id": 5
+            }
+          ],
+          "achieve": {
+            "like_num": "0",
+            "post_num": "590",
+            "replypost_num": "0",
+            "follow_cnt": "0",
+            "followed_cnt": "34101",
+            "topic_cnt": "0",
+            "new_follower_num": "0",
+            "good_post_num": "0",
+            "follow_collection_cnt": "0",
+            "silent_num": "0"
+          },
+          "community_info": null,
+          "avatar_url": "https://upload-bbs.miyoushe.com/upload/2024/09/19/76400079/3dbd6dfbf3f4fdb2e0aa9e9b2fc94b30_4610938567262044013.jpg",
+          "certifications": [
+            {
+              "id": "1587",
+              "certification_id": "7",
+              "type": 2,
+              "label": "同人视频作者"
+            },
+            {
+              "id": "1588",
+              "certification_id": "18",
+              "type": 2,
+              "label": "游戏领域作者"
+            }
+          ],
+          "level_exp": {
+            "level": 14,
+            "exp": 28490,
+            "game_id": 2
+          },
+          "pendant": "",
+          "is_logoff": false,
+          "ip_region": "",
+          "showText": {
+            "reco_type": "bbs",
+            "row2Text": "同人视频作者、游戏领域作者",
+            "row3Text": "粉丝 34101"
+          },
+          "avatar_ext": null
+        },
+        "is_following": false,
+        "is_followed": false,
+        "posts": []
+      }
+    ],
+    "next_offset": 5,
+    "is_last": false
+  }
+}

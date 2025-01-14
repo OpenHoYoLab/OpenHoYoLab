@@ -1,0 +1,38 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "user_info": {
+      "aid": "%PRIVATE_INFORMATION%",
+      "mid": "%PRIVATE_INFORMATION%",
+      "account_name": "",
+      "email": "%PRIVATE_INFORMATION%",
+      "is_email_verify": 1,
+      "area_code": "%PRIVATE_INFORMATION%",
+      "mobile": "%PRIVATE_INFORMATION%",
+      "safe_area_code": "",
+      "safe_mobile": "",
+      "realname": "%PRIVATE_INFORMATION%",
+      "identity_code": "%PRIVATE_INFORMATION%",
+      "rebind_area_code": "",
+      "rebind_mobile": "",
+      "rebind_mobile_time": "0",
+      "links": [],
+      "country": "",
+      "password_time": "0",
+      "unmasked_email": "",
+      "unmasked_email_type": 0
+    },
+    "reactivate_info": {
+      "required": false,
+      "ticket": ""
+    },
+    "new_user": false,
+    "realname_info": {
+      "required": false,
+      "action_type": "",
+      "action_ticket": ""
+    },
+    "need_realperson": false
+  }
+}

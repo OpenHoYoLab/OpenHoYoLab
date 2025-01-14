@@ -1,0 +1,36 @@
+{
+  "comment": "只会把重要的 cookie 写进来，其他的 cookie 存了也没用",
+  "used": [],
+  "added": [
+    {
+      "name": "account_id"
+    },
+    {
+      "name": "cookie_token"
+    },
+    {
+      "name": "account_id_v2"
+    },
+    {
+      "name": "account_id"
+    },
+    {
+      "name": "cookie_token_v2"
+    },
+    {
+      "name": "ltmid_v2"
+    },
+    {
+      "name": "ltoken"
+    },
+    {
+      "name": "ltoken_v2"
+    },
+    {
+      "name": "ltuid"
+    },
+    {
+      "name": "ltuid_v2"
+    }
+  ]
+}

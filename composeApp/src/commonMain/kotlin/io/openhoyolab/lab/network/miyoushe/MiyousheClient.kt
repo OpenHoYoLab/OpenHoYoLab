@@ -2,6 +2,7 @@ package io.openhoyolab.lab.network.miyoushe
 
 import de.jensklingenberg.ktorfit.Ktorfit
 import de.jensklingenberg.ktorfit.http.GET
+import de.jensklingenberg.ktorfit.http.Query
 import io.ktor.client.*
 import io.openhoyolab.lab.network.JsonObjectResponseConverter
 import kotlinx.serialization.json.JsonObject
@@ -66,5 +67,16 @@ interface WebapiKtorfit {
      */
     @GET("user/wapi/getUserFullInfo")
     suspend fun getUserFullInfo(): JsonObject
+
+    /**
+     * 获取主页内容，注意这个是网页版的主页，所以大部分都是固定内容
+     * Fetch home content, attention this is home of web version, so most content will not change after refreshing
+     */
+    @GET("apihub/wapi/webHome")
+    suspend fun getWebHome(
+        @Query("gids") gameId: Int,
+        @Query("page") page: Int,
+        @Query("page_size") pageSize: Int
+    ): JsonObject
 
 }

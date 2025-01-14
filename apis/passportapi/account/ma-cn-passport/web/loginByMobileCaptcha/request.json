@@ -1,0 +1,10 @@
+{
+  "url": "https://passport-api.miyoushe.com/account/ma-cn-verifier/verifier/createLoginCaptcha",
+  "method": "POST",
+  "formData": {
+    "area_code": "%UNKNOWN_WAY_ENCRYPTED%",
+    "captcha": "012210",
+    "mobile": "%UNKNOWN_WAY_ENCRYPTED%"
+  },
+  "comment": "这个接口传入的其中两个数据分别是区域代码和手机号，但是由于我不了解前端，获取 api 只是简单的抓包，无法了解到具体的加密方法，等待探索。captcha 为手机收到的验证码"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://bbs-api.miyoushe.com/misc/wapi/getUniversalNavigators",
+  "method": "POST",
+  "formData": {
+    "game_id": 2,
+    "types": [4]
+  }
+}

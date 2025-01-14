@@ -1,0 +1,24 @@
+{
+  "retcode": 0,
+  "message": "OK",
+  "data": {
+    "banners": [
+      {
+        "image": "https://bbs-static.miyoushe.com/static/2024/12/30/c2198de11da89521438504c3adcf391d_5716483911938842617.jpg",
+        "path": "https://autopatchcn.yuanshen.com/client_app/download/launcher/20241112150944_i9NWOyFNLxQSbQEp/miyoushe/yuanshen_setup_202411101322.exe"
+      },
+      {
+        "image": "https://bbs-static.miyoushe.com/static/2023/08/17/67523e23b2d85369d2e392fa01dea4b8_5198646913131008610.png",
+        "path": "https://ys.mihoyo.com/cloud/?autobegin=1\u0026utm_source=miyoushe_web"
+      },
+      {
+        "image": "https://upload-bbs.mihoyo.com/pc_ad/pc_ad_ys_game_record2.jpg",
+        "path": "https://webstatic.mihoyo.com/app/community-game-records/?game_id=2/#/ys"
+      },
+      {
+        "image": "https://upload-bbs.mihoyo.com/pc_ad/ys_signin.jpg",
+        "path": "https://webstatic.mihoyo.com/bbs/event/signin-ys/index.html?bbs_auth_required=true\u0026act_id=e202009291139501"
+      }
+    ]
+  }
+}

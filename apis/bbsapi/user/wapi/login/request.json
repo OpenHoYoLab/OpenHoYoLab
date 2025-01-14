@@ -1,0 +1,4 @@
+{
+  "url": "https://bbs-api.miyoushe.com/user/wapi/getUserFullInfo",
+  "method": "GET"
+}

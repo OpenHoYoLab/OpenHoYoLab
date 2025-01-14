@@ -18,6 +18,12 @@ data class GameForums(
     val forums: Array<Forum>,
 )
 
+@Serializable
+data class BasicForum(
+    val id: Int,
+    val name: String,
+)
+
 @OptIn(ExperimentalSerializationApi::class)
 @Serializable
 data class Forum(

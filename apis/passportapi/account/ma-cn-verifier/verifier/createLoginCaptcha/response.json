@@ -1,0 +1,9 @@
+{
+    "retcode": 0,
+    "message": "OK",
+    "data": {
+        "sent_new": true,
+        "countdown": 60,
+        "action_type": "login_by_mobile_captcha"
+    }
+}

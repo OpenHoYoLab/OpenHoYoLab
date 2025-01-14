@@ -1,0 +1,10 @@
+{
+  "url": "https://bbs-api.miyoushe.com/user/wapi/getUserFullInfo",
+  "method": "GET",
+  "extra": [
+    {
+      "response": "error",
+      "delta": ""
+    }
+  ]
+}

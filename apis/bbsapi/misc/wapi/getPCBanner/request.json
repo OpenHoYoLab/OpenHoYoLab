@@ -1,0 +1,10 @@
+{
+  "url": "https://bbs-api.miyoushe.com/misc/wapi/getPCBanner",
+  "method": "GET",
+  "queries": [
+    {
+      "name": "gids",
+      "value": "2"
+    }
+  ]
+}

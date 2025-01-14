@@ -1,0 +1,14 @@
+{
+  "url": "https://bbs-api.miyoushe.com/user/wapi/recommendActive",
+  "method": "GET",
+  "queries": [
+    {
+      "name": "gids",
+      "value": "2"
+    },
+    {
+      "name": "page_size",
+      "value": "5"
+    }
+  ]
+}
