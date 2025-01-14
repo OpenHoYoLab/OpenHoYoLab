@@ -26,6 +26,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -44,7 +45,16 @@ import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
 
+/**
+ * 米游社的主页，用于浏览论坛内容
+ * Home of Miyoushe, used to view forum content
+ */
 object HomeTab : Tab {
+
+    /**
+     * 此页面的选项，用于定义底边栏的图标和显示名称
+     * The options of this page, to define the icon and title shown in bottom tab bar
+     */
     override val options: TabOptions
         @Composable
         get() {
@@ -60,17 +70,47 @@ object HomeTab : Tab {
             }
         }
 
+    /**
+     * 该页面的实际内容显示
+     * Actual content display of this page
+     */
     @OptIn(ExperimentalMaterial3Api::class)
     @Composable
     override fun Content() {
+        /**
+         * 通过 koin 获取到注入的 ImageLoader
+         * Get ImageLoader injected with koin
+         */
         val imageLoader = koinInject<ImageLoader>()
 
-        val screenModel = rememberScreenModel {
+        /**
+         * 所有使用的 ScreenModel
+         * All used ScreenModels
+         */
+        val listGamesModel = rememberScreenModel {
             ListGamesModel()
         }
-        val state by screenModel.state.collectAsState()
-        when (state) {
+
+        /**
+         * ScreenModel 对应的状态
+         * States related to ScreenModels
+         */
+        val listGamesState by listGamesModel.state.collectAsState()
+
+        /**
+         * 确保所有游戏都加载完后再显示实际内容
+         * Make sure all the games are loaded then show the actual content
+         */
+        when (listGamesState) {
+            /**
+             * 如果还在加载，就显示加载动画
+             * If it's still loading, show loading animation
+             */
             is ListGamesModel.State.Loading -> {
+                /**
+                 * 使用 Box 来将加载动画锚定在画面中央
+                 * Use Box to align the loading animation in center of whole view
+                 */
                 Box(
                     modifier = Modifier.fillMaxSize(),
                     contentAlignment = Alignment.Center
@@ -79,22 +119,55 @@ object HomeTab : Tab {
                 }
             }
 
+            /**
+             * 不在加载则已经加载完成，开始进行实际内容的显示
+             * If not loading, means games are all loaded, starting show actual content
+             */
             else -> {
-                val result = state as ListGamesModel.State.Result
+                /**
+                 * 将状态转换为结果，以便拿取数据
+                 * Cast state to result, to get result data
+                 */
+                val result = listGamesState as ListGamesModel.State.Result
 
                 val games = result.games
-                var selectedGame by remember {
+
+                /**
+                 * 当前显示的游戏，使用可保存以防止切换界面后丢失选定的游戏
+                 * Currently showing game, use saveable to prevent lost selected game after switching page
+                 */
+                var selectedGame by rememberSaveable {
                     mutableStateOf(games[0])
                 }
 
+                /**
+                 * 用于操作抽屉
+                 * Use to control drawer
+                 */
                 val drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)
                 val scope = rememberCoroutineScope()
 
+                /**
+                 * 添加抽屉，用于选择当前查看的游戏
+                 * Add drawer to select current game to view
+                 */
                 ModalNavigationDrawer(
                     drawerState = drawerState,
                     drawerContent = {
+                        /**
+                         * 抽屉的内容
+                         * Content of the drawer
+                         */
                         ModalDrawerSheet {
+                            /**
+                             * 遍历所有的游戏
+                             * Traverse all the games
+                             */
                             for (game in games) {
+                                /**
+                                 * 如果此游戏与选定的游戏一样，添加底色来确定当前选定的游戏
+                                 * If this game is selected game, add background color to highlight it
+                                 */
                                 if (game == selectedGame) {
                                     Card {
                                         Row(
@@ -114,6 +187,10 @@ object HomeTab : Tab {
                                         }
                                     }
                                 } else {
+                                    /**
+                                     * 如果此游戏与当前选定的游戏一样，不添加底色，但是添加点击事件用于切换
+                                     * If this game is not selected, no background color, but click event to switch
+                                     */
                                     Row(
                                         modifier = Modifier.fillMaxWidth()
                                             .height(64.dp)
@@ -138,9 +215,17 @@ object HomeTab : Tab {
                         }
                     },
                 ) {
+                    /**
+                     * 页面的实际内容
+                     * Actual content of the page
+                     */
                     Column(
                         modifier = Modifier.fillMaxSize(),
                     ) {
+                        /**
+                         * 顶部一行用于显示当前选择的游戏
+                         * Top bar used to show currently selected game
+                         */
                         Row(
                             modifier = Modifier.fillMaxWidth()
                                 .height(64.dp)
@@ -171,7 +256,7 @@ object HomeTab : Tab {
          * Fetch game list after UI appearing, to avoid memory waste
          */
         LaunchedEffect(currentCompositeKeyHash) {
-            screenModel.listGames()
+            listGamesModel.listGames()
         }
     }
 
